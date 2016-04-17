@@ -9,8 +9,21 @@ $(document).on('click', '.switch-clients-slider', function() {
 });
 
 $(document).ready(function(){
-  $('.main-slider').slick({
+  $('.main-slider, .all-quotes').slick({
     dots: true
   });
   $('.main-slider .slick-dots button').eq(0).addClass("active")
+  $('.clients .slick-dots button').eq(0).addClass("active")
+});
+
+$('.main-slider, .all-quotes').on('swipe', function(){
+  console.log($(this).closest('li').index())
+});
+
+$(document).on('click', '.clients .slick-dots button', function() {
+  $('.clients .slick-dots button.active').removeClass("active")
+  $(this).addClass("active")
+  index = $(this).closest('li').index()
+  $('.client-image').removeClass("active")
+  $('.client-image').eq(2 - index).addClass("active")
 });

@@ -25,11 +25,11 @@
   text-align: center;
 }
 
-ul.slick-dots {
+.main-slider ul.slick-dots {
   bottom: 25px;
 }
 
-.slick-dots li button {
+.main-slider .slick-dots li button {
   border: 3px solid #afafaf;
   border-radius: 50%;
   width: 16px;
@@ -40,7 +40,8 @@ ul.slick-dots {
 .slick-dots li button:before {
   content: ""
 }
-.slick-dots li button.active {
+
+.main-slider .slick-dots li button.active {
   border-color: #fff;
 }
 
@@ -113,18 +114,23 @@ button:focus {
 .quote-image-wrapper {
   display: inline-block;
   position: relative;
-  bottom: 145px;
+  bottom: 150px;
 
 }
 
-.qoute-wrapper {
+.slick-prev:before, .slick-next:before {
+   display:none;
+}
+
+.all-quotes {
   margin-left: 45px;
   display: inline-block;
+  width: 80%;
 }
 
 .client-quote blockquote {
   margin: 0 0 35px;
-  max-width: 412px;
+  max-width: 410px;
   color: #6c7275;
   font-size: 15px;
 }
@@ -139,17 +145,15 @@ button:focus {
   margin-top: 8px;
 }
 
-.clients-slider-buttons {
+.clients ul.slick-dots {
+  position: absolute;
+  top: 145px;
+  left: 126%;
   list-style: none;
   padding: 0;
-  text-align: center;
 }
 
-.clients-slider-buttons li {
-  display: inline;
-}
-
-.clients-slider-buttons button {
+.clients .slick-dots li button {
   border: none;
   border-radius: 50%;
   width: 16x;
@@ -157,8 +161,12 @@ button:focus {
   background-color: #b3cacf;
 }
 
-.clients-slider-buttons button.active {
+.clients .slick-dots li button.active {
   background-color: #29c2e1;
+}
+
+.slick-dots li button:before {
+  content: ""
 }
 /*
  * icons
