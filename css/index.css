@@ -265,3 +265,107 @@ span.icon:hover{
 .grid-3-col{
   padding-right: 40px;
 }
+
+/*pricing section*/
+
+/*pricing*/
+.dollar:before {
+  content: "$";
+}
+
+.pricing , .team{
+  padding-top: 100px;
+}
+
+.pricing-cards {
+  height: 425px;
+  text-align: center;
+  border: 1px solid #e5eef0;
+  position: relative;
+}
+.pricing-cards-recommended{
+  height: 105px;
+  width: 105px;
+  position: absolute;
+  top: 0;
+  background: url(../images/package-recommended.png) no-repeat top left;
+}
+
+.pricing-cards-header-wrapper {
+  border-bottom: 1px solid #e5eef0;
+}
+.pricing-cards-header {
+  display: inline-block;
+  position: relative;
+}
+.pricing-cards-header h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 30px 0 15px;
+  margin: 0;
+  color: #23282f;
+  text-transform: uppercase;
+}
+.pricing-cards-header-mask {
+  height: 1px;
+  width: 35px;
+  background-color: #f69b37;
+  position: absolute;
+  margin: 0;
+}
+
+.pricing-cards-price {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 60px;
+  border-bottom: 1px solid #e5eef0;
+  margin: 0;
+  color: #55595f;
+}
+
+.pricing-cards-price span {
+  color: #f69b37;
+}
+.pricing-cards-features {
+  padding-top: 30px;
+  height: 225px;
+}
+.pricing-cards-features p {
+  line-height: 35px;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+
+/*grid-4*/
+.grid-4 {
+  max-width: 1140px;
+  margin: 65px auto;
+}
+
+.grid-4-col {
+  width: 23%;
+  float: left;
+}
+
+.grid-4-col + .grid-4-col {
+  margin-left: 30px;
+} 
+/*team section*/
+
+.team {
+  background-color: #e5eef0;
+}
+.team-member-img img{
+  vertical-align: top;
+}
+.team-member-contact {
+  height: 125px;
+  width: 263px;
+  background-color: #fff;
+}
+.team-member-contact p {
+  margin: 0;
+}
