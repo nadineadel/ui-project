@@ -383,6 +383,34 @@ span.icon:hover{
   margin: 0;
   text-transform: uppercase;
 }
+.team-member-contact ul {
+  width: 70px;
+  margin: 15px 0 0;
+  padding: 0;
+}
+.team-member-contact li {
+  float: left;
+
+  width: 33.33%;
+}
+.facebook {
+  background: url(../images/icons/facebook.png) no-repeat center center;
+}
+.twitter {
+  background: url(../images/icons/twitter.png) no-repeat center center;
+}
+.google {
+  background: url(../images/icons/google+.png) no-repeat center center;
+}
+.team-member-contact li + .team-member-contact li {
+  margin-left: 2.620087%;
+}
+
+.team-member-contact span {
+  font-size: 14px;
+  font-family: 'Karla', sans-serif;
+  color: #f69b37;
+}
 /* slider next button is making the page scrollable horizontally */
 .main-slider .slick-next {
   display:none!important;
