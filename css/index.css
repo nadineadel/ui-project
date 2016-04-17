@@ -160,3 +160,108 @@ button:focus {
 .clients-slider-buttons button.active {
   background-color: #29c2e1;
 }
+/*
+ * icons
+ * */
+span.icon-boost-business{
+  background: url(../images/icons/boost-your-business-icon.png) no-repeat center;
+}
+span.icon-filter-business{
+  background: url(../images/icons/filtering-business-data-icon.png) no-repeat center;
+}
+span.icon-business-solutions{
+  background: url(../images/icons/business-solutions-icon.png) no-repeat center;
+}
+span.icon-data-entry{
+  background: url(../images/icons/data-entry-icon.png) no-repeat center;
+}
+span.icon-client-management{
+  background: url(../images/icons/client-management-icon.png) no-repeat center;
+}
+span.icon-better-communication{
+  background: url(../images/icons/better-communication-icon.png) no-repeat center;
+}
+span.icon-well-analyzing-team{
+  background: url(../images/icons/well-analyzing-team-icon.png) no-repeat center;
+}
+span.icon-24-hour-support{
+  background: url(../images/icons/24-hour-support-icon.png) no-repeat center;
+}
+span.icon-keeping-business-data{
+  background: url(../images/icons/keeping-business-data-icon.png) no-repeat center;
+}
+
+
+/*
+ * Make Your Startup Section
+ * */
+.make-startup-warpper, .features-wrapper{
+  margin-top: 100px;
+}
+
+.make-startup{
+  width: 684px;
+  float: left;
+  padding-right: 50px;
+}
+.make-startup img{
+  margin-top: 60px;
+}
+
+.services{
+  width: 456px;
+  float: left;
+}
+
+span.icon{
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin: 0 40px 60px 0;
+  background-color: #e5eef0;
+}
+
+span.icon:hover{
+  background-color: #f69b37;
+}
+
+.services h3,
+.features-wrapper h3{
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.services a,
+.features-wrapper a{
+  display:block;
+  width: 175px;
+  margin: 50px auto;
+}
+
+
+/*
+ * features section
+ * */
+.features-wrapper{
+  background: url(../images/features-bg.png) no-repeat bottom right;
+  padding-bottom: 95px;
+}
+
+.grid-3{
+  margin: 65px 0;
+}
+
+.grid-3 div{
+  float: left;
+  width: 33.3%;
+}
+
+.grid-3-col span.icon{
+  margin: 0 40px 90px 0;
+}
+
+.grid-3-col{
+  padding-right: 40px;
+}
