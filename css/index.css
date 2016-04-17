@@ -19,7 +19,7 @@
   float: left;
 }
 
-.services span{
+.icon{
   float: left;
   width: 70px;
   height: 70px;
@@ -33,7 +33,7 @@
   background: url(../images/icons/filtering-business-data-icon.png) no-repeat center #e5eef0;
 }
 .services span.icon-business-solutions{
-  background: url(../images/icons/filtering-business-data-icon.png) no-repeat center #e5eef0;
+  background: url(../images/icons/business-solutions-icon.png) no-repeat center #e5eef0;
 }
 
 .services h3{
