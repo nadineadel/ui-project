@@ -384,26 +384,29 @@ span.icon:hover{
   text-transform: uppercase;
 }
 .team-member-contact ul {
-  width: 70px;
-  margin: 15px 0 0;
+  width: 80px;
+  margin: 10px 0 0;
   padding: 0;
+  list-style: none;
 }
 .team-member-contact li {
   float: left;
-
   width: 33.33%;
 }
+.social-icons {
+  background-position: 0 0;
+  width: 15px;
+  height: 32px; 
+  display: inline-block; 
+} 
 .facebook {
-  background: url(../images/icons/facebook.png) no-repeat center center;
+  background: url(../images/icons/facebook.png) no-repeat center left;
 }
 .twitter {
-  background: url(../images/icons/twitter.png) no-repeat center center;
+  background: url(../images/icons/twitter.png) no-repeat center left;
 }
 .google {
-  background: url(../images/icons/google+.png) no-repeat center center;
-}
-.team-member-contact li + .team-member-contact li {
-  margin-left: 2.620087%;
+  background: url(../images/icons/google+.png) no-repeat center left;
 }
 
 .team-member-contact span {
