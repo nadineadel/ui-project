@@ -27,3 +27,11 @@ $(document).on('click', '.clients .slick-dots button', function() {
   $('.client-image').removeClass("active")
   $('.client-image').eq(2 - index).addClass("active")
 });
+
+$(document).on('click', '.client-image', function() {
+  $('.clients .slick-dots button.active').removeClass("active")
+  index = $(this).closest('.client-image-container').index()
+  $('.clients .slick-dots button').eq(2 - index).addClass("active")
+  $('.client-image').removeClass("active")
+  $(this).addClass("active")
+});
