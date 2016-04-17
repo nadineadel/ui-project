@@ -12,4 +12,5 @@ $(document).ready(function(){
   $('.main-slider').slick({
     dots: true
   });
+  $('.main-slider .slick-dots button').eq(0).addClass("active")
 });
