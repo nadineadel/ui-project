@@ -14,3 +14,73 @@
 
 /*font-family: 'Lora', serif;*/
 @import url(https://fonts.googleapis.com/css?family=Lora:400italic);
+
+
+/*
+ * colors
+ *
+ * * cyan: #29c2e1
+ * * light-cyan: #e5eef0
+ * * dark-cyan: #93a1a7
+ * * orange: #f69b37
+ * * black: #23282f
+ * * light-black: #55595f
+ * * lighter-black: #93a1a7
+ *
+ * */
+
+/*
+ * typography
+ *
+ * */
+.section-title{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  color: #23282f;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.section-subtitle{
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
+  color: #23282f;
+  text-transform: uppercase;
+}
+
+/*
+ * elements
+ *
+ * */
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+/*
+ * buttons links
+ *
+ * */
+.btn{
+  display: inline-block;
+  font-family: 'Karla', sans-serif;
+  font-size: 14.5px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  line-height: 40px;
+  padding: 0 25px;
+  border-radius: 40px;
+}
+
+.btn-primary{
+  background-color: #29c2e1;
+  color: #fff;
+}
+
+.btn-secondary{
+  background-color: #f69b37;
+  color: #fff;
+}
