@@ -1,4 +1,15 @@
-$(document).on('click', '.switch-main-slider', function() {
-  $('.switch-main-slider.active').removeClass("active")
+$(document).on('click', '.main-slider .slick-dots button', function() {
+  $('.main-slider .slick-dots button.active').removeClass("active")
   $(this).addClass("active")
+});
+
+$(document).on('click', '.switch-clients-slider', function() {
+  $('.switch-clients-slider.active').removeClass("active")
+  $(this).addClass("active")
+});
+
+$(document).ready(function(){
+  $('.main-slider').slick({
+    dots: true
+  });
 });
