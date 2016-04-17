@@ -413,6 +413,7 @@ span.icon:hover{
   font-size: 14px;
   font-family: 'Karla', sans-serif;
   color: #f69b37;
+  text-transform: capitalize;
 }
 /* slider next button is making the page scrollable horizontally */
 .main-slider .slick-next {
