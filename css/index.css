@@ -274,9 +274,9 @@ span.icon:hover{
   padding-right: 40px;
 }
 
-
 /*pricing section*/
 
+/*pricing*/
 .dollar:before {
   content: "$";
 }
@@ -373,10 +373,15 @@ span.icon:hover{
   height: 125px;
   width: 263px;
   background-color: #fff;
+  padding-left: 30px;
 }
 .team-member-contact p {
+  font-size: 14px;
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
   margin: 0;
-
+  text-transform: uppercase;
+}
 /* slider next button is making the page scrollable horizontally */
 .main-slider .slick-next {
   display:none!important;
@@ -565,5 +570,4 @@ form.inline button[type="submit"], form.inline button {
 }
 footer .coprights {
   text-align: center;
->>>>>>> c64b8cdafc8535c38033870384a9d3e3690ab341
 }
