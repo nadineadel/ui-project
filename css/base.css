@@ -82,6 +82,37 @@ body{
   margin: 0 auto;
 }
 
+/*grids*/
+.grid-3{
+  margin: 65px 0;
+}
+
+.grid-3 div{
+  float: left;
+  width: 33.3%;
+}
+
+.grid-3-col span.icon{
+  margin: 0 40px 90px 0;
+}
+
+.grid-3-col{
+  padding-right: 40px;
+}
+
+.grid-4 {
+  margin: 0 auto;
+}
+
+.grid-4-col {
+  width: 23%;
+  float: left;
+}
+
+.grid-4-col + .grid-4-col {
+  margin-left: 2.333%;
+} 
+
 /*
  * buttons links
  *
