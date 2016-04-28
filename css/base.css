@@ -108,3 +108,29 @@ body{
   background-color: #f69b37;
   color: #fff;
 }
+
+
+/*
+ * page-title-section
+ *
+ * */
+.banner{
+  width: 100%;
+  background:url('../images/fillers/1970-310.png') no-repeat center;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  padding: 120px 0;
+}
+
+.banner h1{
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0 0 20px 0;
+}
+
+.banner p{
+  font-size: 14px;
+  margin:0;
+}
+
