@@ -257,23 +257,6 @@ span.icon:hover{
   padding-bottom: 95px;
 }
 
-.grid-3{
-  margin: 65px 0;
-}
-
-.grid-3 div{
-  float: left;
-  width: 33.3%;
-}
-
-.grid-3-col span.icon{
-  margin: 0 40px 90px 0;
-}
-
-.grid-3-col{
-  padding-right: 40px;
-}
-
 /*pricing section*/
 
 /*pricing*/
@@ -283,6 +266,9 @@ span.icon:hover{
 
 .pricing , .team{
   padding-top: 100px;
+}
+.pricing-cards-wrapper {
+  margin: 65px 0;
 }
 
 .pricing-cards {
@@ -346,25 +332,12 @@ span.icon:hover{
   text-transform: capitalize;
 }
 
-
-/*grid-4*/
-.grid-4 {
-  max-width: 1140px;
-  margin: 65px auto;
-}
-
-.grid-4-col {
-  width: 23%;
-  float: left;
-}
-
-.grid-4-col + .grid-4-col {
-  margin-left: 30px;
-} 
 /*team section*/
-
 .team {
   background-color: #e5eef0;
+}
+.team-wrapper {
+  margin: 65px 0;
 }
 .team-member-img img{
   vertical-align: top;
@@ -413,6 +386,7 @@ span.icon:hover{
   font-size: 14px;
   font-family: 'Karla', sans-serif;
   color: #f69b37;
+  text-transform: capitalize;
 }
 /* slider next button is making the page scrollable horizontally */
 .main-slider .slick-next {
