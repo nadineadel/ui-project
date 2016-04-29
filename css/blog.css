@@ -9,6 +9,17 @@
 .media-wrapper img {
   vertical-align: top;
 }
+.media-wrapper.slider {
+  width: 848px;
+  height: 335px;
+  background: url("https://placeholdit.imgix.net/~text?txtsize=80&txt=848x335&w=848&h=335");
+}
+.slick-prev {
+  left: 20px;
+}
+.slick-next {
+  right: 20px;
+}
 .media-wrapper video, .media-wrapper audio {
   max-width: 100%;
   width: 100%;
@@ -20,7 +31,7 @@
   padding: 75px 0;
 }
 .blog-post + .blog-post {
-  border-top: 1px solid;
+  border-top: 1px solid #e5eef0;
 }
 .blog-title {
   text-transform: uppercase;

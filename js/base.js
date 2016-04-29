@@ -1,10 +1,12 @@
 // Intializing google map
-var mapDiv = document.getElementById('map');
-var map = new google.maps.Map(mapDiv, {
-  center: {lat: 44.540, lng: -78.546},
-  zoom: 8,
-  scrollwheel: false
+if ($('#map').length > 0) {
+  var mapDiv = document.getElementById('map');
+  var map = new google.maps.Map(mapDiv, {
+    center: {lat: 44.540, lng: -78.546},
+    zoom: 8,
+    scrollwheel: false
 });
+}
 
 $(document).on('click', '.main-slider .slick-dots button', function() {
   $('.main-slider .slick-dots button.active').removeClass("active")
@@ -19,6 +21,9 @@ $(document).on('click', '.switch-clients-slider', function() {
 $(document).ready(function(){
   $('.main-slider, .all-quotes').slick({
     dots: true
+  });
+  $('.blog-slider').slick({
+    dots: false
   });
   $('.main-slider .slick-dots button').eq(0).addClass("active")
   $('.clients .slick-dots button').eq(0).addClass("active")

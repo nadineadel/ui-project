@@ -119,7 +119,10 @@ button:focus {
 
 }
 
-.slick-prev:before, .slick-next:before {
+.main-slider .slick-prev:before,
+.main-slider .slick-next:before,
+.all-quotes .slick-prev:before,
+.all-quotes .slick-next:before {
    display:none;
 }
 
