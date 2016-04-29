@@ -1,12 +1,15 @@
-.blog-posts-list, .blog-sidebar {
+.blog, .blog-sidebar {
   display: inline-block;
 }
-.blog-posts-list {
+.blog {
   vertical-align: top;
   max-width:848px;
 }
 .img-wrapper img {
   vertical-align: top;
+}
+.blog-post:first-child {
+  padding-top: 0;
 }
 .blog-post {
   text-transform: uppercase;
