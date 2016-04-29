@@ -15,6 +15,8 @@
 /*font-family: 'Lora', serif;*/
 @import url(https://fonts.googleapis.com/css?family=Lora:400italic);
 
+/*font-family: 'Roboto Slab', serif;*/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 
 /*
  * colors
@@ -157,6 +159,7 @@ body{
   font-size: 48px;
   font-weight: 800;
   margin: 0 0 20px 0;
+  text-transform: uppercase;
 }
 
 .banner p{
@@ -219,7 +222,8 @@ body{
  *
  * */
 .blog-sidebar {
-  max-width: 260px;
+  max-width: 292px;
+  padding-left: 30px;
 }
 .blog-sidebar-categories-wrapper, .blog-sidebar-popular-posts, .blog-sidebar-tagswrapper {
   margin: 60px 0;
@@ -242,7 +246,7 @@ body{
   top: 10px;
   left: 220px;
 }
-.blog-sidebar h1 {
+.blog-sidebar-header {
   text-transform: capitalize;
   font-size: 20px;
   font-family: 'Raleway', sans-serif;
@@ -284,7 +288,7 @@ body{
   float: left;
   font-family: 'Karla', sans-serif;
 }
-.blog-sidebar-post-details h2 {
+.blog-sidebar-post-details-header {
   margin: 0;
 }
 .blog-sidebar-post-details a {
@@ -400,6 +404,7 @@ section.offer {
   color: #59686c;
   font-size: 14px;
   margin: 0;
+  text-transform: uppercase;
 }
 .offer .offer-title + .offer-note {
   margin: 0;
@@ -408,14 +413,16 @@ section.offer {
   margin-top: 30px;
 }
 .offer .actions .btn +.btn {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 .offer .offer-content-wrapper {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
-
+.offer .btn-primary {
+  padding: 0 40px;
+}
 /*
  *
  * team section
