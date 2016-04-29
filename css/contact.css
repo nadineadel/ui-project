@@ -17,6 +17,8 @@
 .map p {
   text-transform: uppercase;
   line-height: 25px;
+  max-width: 260px;
+  margin: 0 auto;
 }
 
 .icon-wrapper {
