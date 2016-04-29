@@ -1,3 +1,11 @@
+// Intializing google map
+var mapDiv = document.getElementById('map');
+var map = new google.maps.Map(mapDiv, {
+  center: {lat: 44.540, lng: -78.546},
+  zoom: 8,
+  scrollwheel: false
+});
+
 $(document).on('click', '.main-slider .slick-dots button', function() {
   $('.main-slider .slick-dots button.active').removeClass("active")
   $(this).addClass("active")
