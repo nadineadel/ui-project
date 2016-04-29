@@ -168,36 +168,6 @@ button:focus {
 .slick-dots li button:before {
   content: ""
 }
-/*
- * icons
- * */
-span.icon-boost-business{
-  background: url(../images/icons/boost-your-business-icon.png) no-repeat center;
-}
-span.icon-filter-business{
-  background: url(../images/icons/filtering-business-data-icon.png) no-repeat center;
-}
-span.icon-business-solutions{
-  background: url(../images/icons/business-solutions-icon.png) no-repeat center;
-}
-span.icon-data-entry{
-  background: url(../images/icons/data-entry-icon.png) no-repeat center;
-}
-span.icon-client-management{
-  background: url(../images/icons/client-management-icon.png) no-repeat center;
-}
-span.icon-better-communication{
-  background: url(../images/icons/better-communication-icon.png) no-repeat center;
-}
-span.icon-well-analyzing-team{
-  background: url(../images/icons/well-analyzing-team-icon.png) no-repeat center;
-}
-span.icon-24-hour-support{
-  background: url(../images/icons/24-hour-support-icon.png) no-repeat center;
-}
-span.icon-keeping-business-data{
-  background: url(../images/icons/keeping-business-data-icon.png) no-repeat center;
-}
 
 
 /*
@@ -221,17 +191,6 @@ span.icon-keeping-business-data{
   float: left;
 }
 
-span.icon{
-  float: left;
-  width: 70px;
-  height: 70px;
-  margin: 0 40px 60px 0;
-  background-color: #e5eef0;
-}
-
-span.icon:hover{
-  background-color: #f69b37;
-}
 
 .services h3,
 .features-wrapper h3{
@@ -248,14 +207,6 @@ span.icon:hover{
   margin: 50px auto;
 }
 
-
-/*
- * features section
- * */
-.features-wrapper{
-  background: url(../images/features-bg.png) no-repeat bottom right;
-  padding-bottom: 95px;
-}
 
 /*pricing section*/
 
