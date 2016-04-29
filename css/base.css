@@ -384,8 +384,15 @@ span.icon:hover{
  *
  */
 .features-wrapper{
-  background: url(../images/features-bg.png) no-repeat bottom right;
   padding-bottom: 95px;
+}
+
+.features-wrapper.triangle-background {
+  background: url(../images/features-bg.png) no-repeat bottom right;
+}
+
+.features-wrapper.general {
+  border-bottom: solid 1px #e5eef0;
 }
 
 /*
