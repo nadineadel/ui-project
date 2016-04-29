@@ -592,7 +592,7 @@ ul.navbar li + li {
  */
 .footer-wrapper {
   background: url(../images/orange-background.png) no-repeat bottom left;
-  height: 370px;
+  max-height: 370px;
 }
 
 .links-wrapper {
