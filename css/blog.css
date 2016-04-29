@@ -40,3 +40,6 @@
 .inline-title::after {
 content: " :";
 }
+.blog-read-more-link {
+  margin-top: 40px;
+}
