@@ -103,3 +103,6 @@
 .blog-author-name span:after {
   content: ' : '
 }
+.blogpost-comment-form {
+  margin-top: 100px;
+}
