@@ -72,26 +72,25 @@
   line-height: 40px;
 }
 .blog-author-img {
-  max-width: 15%;
+  max-width: 20%;
   display: inline-block;
+  margin: 50px 0;
+  height: 122px;
   vertical-align: top;
-  margin: 35px 0 0 40px;
+  padding-left: 40px;
   
 }
 
 .blog-author-info {
   max-width: 70%;
   display: inline-block;
-  vertical-align: top;
-  padding: 35px 0 35px 45px;
+  margin: 50px 0;
+  padding: 35px 0 0 30px;
 }
 .blog-author {
   background-color: #e5eef0;
 }
-.blog-author-img {
-  width: 122px;
-  height: 122px;
-}
+
 .blog-author-name {
   text-transform: uppercase;
   font-family: 'Karla', sans-serif;
