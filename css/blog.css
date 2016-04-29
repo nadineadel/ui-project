@@ -5,42 +5,38 @@
   vertical-align: top;
   max-width:848px;
 }
-.img-wrapper img {
+.media-wrapper img {
   vertical-align: top;
+}
+.media-wrapper video, .media-wrapper audio {
+  max-width: 100%;
+  width: 100%;
 }
 .blog-post:first-child {
   padding-top: 0;
 }
 .blog-post {
-  text-transform: uppercase;
   padding: 75px 0;
 }
 .blog-post + .blog-post {
   border-top: 1px solid;
 }
 .blog-title {
+  text-transform: uppercase;
   margin:40px 0 10px;
 }
 .meta-info-item {
+  text-transform: uppercase;
   display: inline-block;
   margin:0;
 }
-.meta-info-item::after {
+.meta-info-item + .meta-info-item::before {
   content: " | ";
   padding: 0 10px;
-}
-
-.meta-info-item:last-child::after {
-  content:"";
-  padding:0;
 }
 .inline-title {
   margin-right:5px;
 }
 .inline-title::after {
 content: " :";
-}
-
-.blog-content {
-  text-transform: none;
 }
