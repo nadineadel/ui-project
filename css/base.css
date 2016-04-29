@@ -115,7 +115,6 @@ body{
 
 /*
  * buttons links
- *
  * */
 .btn{
   display: inline-block;
@@ -214,4 +213,111 @@ body{
 }
 .company-stats div.certifications{
   background: url("../images/icons/certification-icon.png") no-repeat left;
+}
+
+/* blog-side
+ *
+ * */
+.blog-sidebar {
+  max-width: 260px;
+}
+.blog-sidebar-categories-wrapper, .blog-sidebar-popular-posts, .blog-sidebar-tagswrapper {
+  margin: 60px 0;
+}
+.blog-sidebar-search {
+  display: relative;
+}
+.blog-sidebar input{
+  width: 260px;
+  height: 45px;
+  border: 1px solid #e5eef0;
+  padding-left: 15px;
+  color: #303030;
+  font-size: 14px;
+}
+.blog-sidebar button {
+  background-color: transparent;
+  border: 0;
+  position: absolute;
+  top: 10px;
+  left: 220px;
+}
+.blog-sidebar h1 {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: #23282f;
+  margin: 20px 0;
+}
+.blog-sidebar-categories {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.blog-sidebar-categories li {
+  padding: 13px 0;
+  display: block;
+}
+.blog-sidebar-categories a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #55595f;
+  font-size: 13px;
+  font-family: 'Karla', sans-serif;
+}
+.blog-sidebar-categories a i {
+  float: right;
+}
+.blog-sidebar-categories a:hover {
+  color: #f69b37;
+}
+
+.blog-sidebar-post {
+  margin: 30px 0;
+}
+.blog-sidebar-post-img {
+  display: inline-block;
+  float: left;
+}
+.blog-sidebar-post-details {
+  padding: 10px 0 10px 30px;
+  float: left;
+  font-family: 'Karla', sans-serif;
+}
+.blog-sidebar-post-details h2 {
+  margin: 0;
+}
+.blog-sidebar-post-details a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 15px;
+  color: #23282f;
+}
+.blog-sidebar-post-details p:first-letter {
+  text-transform: capitalize; 
+}
+.blog-sidebar-post-details p {
+  text-transform: capitalize;
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #55595f;
+}
+.blog-sidebar-post-details span {
+  color: #f69b37;
+}
+.blog-sidebar-post-details span:after {
+  content: ':';
+  padding: 0 5px; 
+}
+.blog-sidebar-tags a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: 'Karla', sans-serif;
+  padding: 15px;
+  background-color: #29c2e1;
+  color: #e5eef0;
+  display: inline-block;
+  margin: 0 4px 10px 0; 
 }
