@@ -476,3 +476,82 @@ section.offer {
   color: #f69b37;
   text-transform: capitalize;
 }
+
+/*
+ *
+ * header section
+ *
+ */
+header {
+  text-transform: uppercase;
+}
+header .intro-wrapper {
+  background: #e5eef0;
+  color: #93a1a7;
+}
+/* why? there is a container class */
+.content-wrapper {
+  max-width: 1145px;
+  display: block;
+  margin: 0 auto;
+  font-size: 13px;
+}
+.intro .title {
+  font-size: 13px;
+}
+.intro .title,
+.intro .contact-info {
+  display: inline-block;
+  margin: 20px 0;
+}
+.intro .contact-info {
+  float:right;
+}
+.intro .phone {
+  font-size: 14px;
+}
+.intro .contact-info span + span {
+  margin-left: 60px;
+}
+.navbar-wrapper {
+  background-color: #fff;
+}
+.logo {
+  margin:13px 0;
+  font-size:0;
+}
+nav {
+  float:right;
+}
+nav ul {
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+nav, .logo {
+  vertical-align:top;
+}
+
+nav ul.navbar li, nav, .logo {
+  display: inline-block;
+}
+ul.navbar li a {
+  display: inline-block;
+  text-decoration: none;
+  color:#93a1a7;
+  font-size: 14px;
+  padding: 20px 15px;
+}
+ul.navbar li.active a, ul.navbar li a:hover, ul.navbar li a:active {
+  color:black;
+}
+ul.navbar li a.contact-us {
+  color: #fff;
+  font-size: 14.5px;
+  padding: 0 25px;
+  border-radius: 40px;
+}
+ul.navbar li + li {
+  margin-left: 10px;
+}
+
