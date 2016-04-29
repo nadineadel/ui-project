@@ -514,6 +514,10 @@ header .intro-wrapper {
   background: #e5eef0;
   color: #93a1a7;
 }
+
+header nav ul a.active {
+  color: #000;
+}
 /* why? there is a container class */
 .content-wrapper {
   max-width: 1145px;
@@ -628,6 +632,9 @@ footer ul li a, footer ul li, form label, .coprights {
   text-decoration: none;
   color: #93a1a7;
   font-size: 14px;
+}
+
+footer p.coprights {
   margin-bottom: 65px;
 }
 
