@@ -111,7 +111,7 @@ body{
 
 .grid-4-col + .grid-4-col {
   margin-left: 2.333%;
-} 
+}
 
 /*
  * buttons links
@@ -165,3 +165,53 @@ body{
   margin:0;
 }
 
+/*
+ * stats
+ *
+ * */
+.company-stats div{
+  padding-left: 80px;
+}
+
+.company-stats{
+  padding:80px 0;
+}
+
+.company-stats-wrapper-cyan{
+  padding: 100px 0 80px 0;
+  background-color: #e5eef0;
+}
+
+.company-stats h1{
+  margin: 0;
+  width: 24px;
+  height: 24px;
+  outline: none;
+  overflow: hidden;
+  text-indent: -999px;
+  white-space: nowrap;
+}
+
+.company-stats h2{
+  text-transform: uppercase;
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+}
+
+.company-stats span{
+  display: block;
+  font-size: 60px;
+}
+
+.company-stats div.years-marketing{
+  background: url("../images/icons/years-in-marketing-icon.png") no-repeat left;
+}
+.company-stats div.team-members{
+  background: url("../images/icons/team-members-icon.png") no-repeat left;
+}
+.company-stats div.finished-projects{
+  background: url("../images/icons/Finished-Projects-icons.png") no-repeat left;
+}
+.company-stats div.certifications{
+  background: url("../images/icons/certification-icon.png") no-repeat left;
+}
