@@ -188,6 +188,7 @@ button:focus {
 }
 .make-startup img{
   margin-top: 60px;
+  vertical-align: top;
 }
 
 .services{
@@ -208,7 +209,7 @@ button:focus {
 .features-wrapper a{
   display:block;
   width: 175px;
-  margin: 50px auto;
+  margin: 0 auto;
 }
 
 
