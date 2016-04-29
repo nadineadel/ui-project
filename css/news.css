@@ -11,21 +11,24 @@
   margin-top: 35px;
 }
 
-.news-grid .row, .column {
+.row, .column {
   box-sizing: border-box;
 }
 
-.news-grid .column {
+.column {
   position: relative;
   float: left;
+}
+
+.news-grid .column {
   min-height: 756px;
 }
 
-.news-grid .column + .column {
+.column + .column {
   margin-left: 1.6%;
 }
 
-.news-section .column-4 {
+.column-4 {
   width: 32.2666666667%;
 }
 
