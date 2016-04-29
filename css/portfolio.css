@@ -1,0 +1,21 @@
+.portfolio-wrapper{
+  padding: 100px 0;
+}
+
+ul.projects-list{
+  padding: 40px 0 0 0;
+  list-style: 0;
+  margin: 0;
+}
+
+.projects-list li{
+  display: block;
+  width:50%;
+  float:left;
+  margin-bottom: 40px;
+}
+
+ul.projects-list:nth-child(2n){
+  margin-left: 30px;
+}
+
