@@ -1,0 +1,56 @@
+.services-wrapper{
+  margin-top: 100px;
+}
+
+ul.services-list{
+  list-style: none;
+}
+
+.services-list li{
+  border-bottom: 1px solid #e5eef0;
+  padding:55px 0 55px 200px;
+  color: #55595f;
+}
+
+.services-list h2{
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  margin:0;
+  padding-left: 15px;
+  border-left: 5px solid #29c2e1;
+}
+
+.services-list p{
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  margin:25px 0 40px 0;
+}
+
+
+.data-entry{
+  background: url('../images/icons/data-entry-big-icon.png') no-repeat left 30%
+}
+
+.data-entry h2{
+  padding-left: 5px;
+  border-color: #f69b37;
+}
+
+.analyzing-team{
+  background: url('../images/icons/analyzing-team-big.png') no-repeat left 30%
+}
+.client-manage{
+  background: url('../images/icons/client-manage-big.png') no-repeat left 30%
+}
+.better-communication{
+  background: url('../images/icons/communication-big.png') no-repeat left 30%
+}
+.h-support{
+  background: url('../images/icons/24h-support-big.png') no-repeat left 30%
+}
+.business-data{
+  background: url('../images/icons/bussines-data-big.png') no-repeat left 30%
+}
+
+
+
