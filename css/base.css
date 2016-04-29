@@ -377,4 +377,41 @@ span.icon:hover{
   padding-bottom: 95px;
 }
 
-
+/*
+ *
+ * sign up - offer
+ *
+ */
+section.offer {
+  height: 320px;
+  text-align: center;
+  font-weight: 400;
+  border-bottom: 1px solid #e5eef0;
+}
+.offer .offer-title {
+  color: #000;
+  font-size: 30px;
+  margin: 0;
+}
+.offer .offer-title .special {
+  color: #f69b37;
+}
+.offer .offer-note {
+  color: #59686c;
+  font-size: 14px;
+  margin: 0;
+}
+.offer .offer-title + .offer-note {
+  margin: 0;
+}
+.offer .description + .actions {
+  margin-top: 30px;
+}
+.offer .actions .btn +.btn {
+  margin-left: 30px;
+}
+.offer .offer-content-wrapper {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
