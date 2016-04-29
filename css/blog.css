@@ -44,3 +44,29 @@ content: " :";
 .blog-read-more-link {
   margin-top: 40px;
 }
+.pagination ul {
+  list-style: none;
+  padding: 0;
+}
+.pagination ul li {
+  display: inline-block;
+}
+.pagination ul li {
+  height: 40px;
+  width: 45px;
+  background-color: #29c2e1;
+  text-align: center;
+}
+.pagination ul li a {
+  display: block; 
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-decoration: none;
+  font-family: 'Karla', sans-serif;
+  font-weight: 600;
+  color: #e5eef0;
+}
+.pagination ul li.active {
+  background-color: #f69b37;
+}
