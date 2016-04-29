@@ -590,6 +590,11 @@ ul.navbar li + li {
  * Footer
  *
  */
+.footer-wrapper {
+  background: url(../images/orange-background.png) no-repeat bottom left;
+  height: 370px;
+}
+
 .links-wrapper {
   border-bottom: 1px solid #e5eef0;
   padding: 75px 0;
