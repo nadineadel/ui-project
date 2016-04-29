@@ -30,13 +30,9 @@
   display: inline-block;
   margin:0;
 }
-.meta-info-item::after {
+.meta-info-item + .meta-info-item::before {
   content: " | ";
   padding: 0 10px;
-}
-.meta-info-item:last-child::after {
-  content:"";
-  padding:0;
 }
 .inline-title {
   margin-right:5px;
