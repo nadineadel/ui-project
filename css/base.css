@@ -35,6 +35,10 @@
  * typography
  *
  * */
+body {
+  background: url(../images/blue-background.png) no-repeat bottom right;
+}
+
 .section-title {
   font-family: 'Raleway', sans-serif;
   font-size: 30px;
@@ -624,6 +628,7 @@ footer ul li a, footer ul li, form label, .coprights {
   text-decoration: none;
   color: #93a1a7;
   font-size: 14px;
+  margin-bottom: 65px;
 }
 
 footer .label {
