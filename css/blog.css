@@ -1,0 +1,83 @@
+.blog, .blog-sidebar {
+  display: inline-block;
+}
+.blog {
+  vertical-align: top;
+  max-width:848px;
+  margin-top: 100px;
+}
+.media-wrapper img {
+  vertical-align: top;
+}
+.media-wrapper.slider {
+  width: 848px;
+  height: 335px;
+  background: url("https://placeholdit.imgix.net/~text?txtsize=80&txt=848x335&w=848&h=335");
+}
+.slick-prev {
+  left: 20px;
+}
+.slick-next {
+  right: 20px;
+}
+.media-wrapper video, .media-wrapper audio {
+  max-width: 100%;
+  width: 100%;
+}
+.blog-post:first-child {
+  padding-top: 0;
+}
+.blog-post {
+  padding: 75px 0;
+}
+.blog-post + .blog-post {
+  border-top: 1px solid #e5eef0;
+}
+.blog-title {
+  text-transform: uppercase;
+  margin:40px 0 10px;
+}
+.meta-info-item {
+  text-transform: uppercase;
+  display: inline-block;
+  margin:0;
+}
+.meta-info-item + .meta-info-item::before {
+  content: " | ";
+  padding: 0 10px;
+}
+.inline-title {
+  margin-right:5px;
+}
+.inline-title::after {
+content: " :";
+}
+.blog-read-more-link {
+  margin-top: 40px;
+}
+.pagination ul {
+  list-style: none;
+  padding: 0;
+}
+.pagination ul li {
+  display: inline-block;
+}
+.pagination ul li {
+  height: 40px;
+  width: 45px;
+  background-color: #29c2e1;
+  text-align: center;
+}
+.pagination ul li a {
+  display: block; 
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-decoration: none;
+  font-family: 'Karla', sans-serif;
+  font-weight: 600;
+  color: #e5eef0;
+}
+.pagination ul li.active {
+  background-color: #f69b37;
+}
